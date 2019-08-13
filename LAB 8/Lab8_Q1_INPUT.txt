@@ -1,0 +1,33 @@
+"a, e, i, o, u" are the vovels in English. 
+Write a program that counts the vovels in a text entered by the user 
+(Input process should be ended using “.”(full stop) character). 
+For each vovel your program should print a line containing that number of adjacent asterisks. 
+(Note: all the characters which user entered must be lower case.
+ You can consider the volvels as a=0, e=1, i=2, o=3 and u=4 which helps to use arrays).
+
+ 
+
+To start quiz: Sınavı simdi uygula
+
+ 
+
+Submitting stages:
+
+ 
+
+Precheck: control your code with given input samples
+Kontrol et: control your code with hidden input sample
+Uygulamayı bitir
+Tümünü gönder ve bitir : to submitt the code
+ 
+
+For example:
+
+Test	Input	Result
+Test1
+success, so clearly in view;  or, is it merely a trick of the light.
+0**
+1******
+2******
+3***
+4*

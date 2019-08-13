@@ -1,0 +1,36 @@
+Write a program that create a multi dimensional array of character that size of 5X4 (Last one is ‘\n’). 
+Sort the elements of the arrays as dictionary order. 
+The main point is that every character has an integer value in ascii table, so you can use this value to understand which letter comes before the other. 
+ASCII codes: A-Z: 65-90 a-z: 97-122
+
+ 
+
+To start quiz: Sınavı simdi uygula
+
+ 
+
+Submitting stages:
+
+ 
+
+Precheck: control your code with given input samples
+Kontrol et: control your code with hidden input sample
+Uygulamayı bitir
+Tümünü gönder ve bitir : to submitt the code
+ 
+
+For example:
+
+Test	Input	Result
+Test1
+can
+ece
+ali
+naz
+nil
+----------OUTPUT------------
+ali
+can
+ece
+naz
+nil

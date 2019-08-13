@@ -1,0 +1,41 @@
+A completed Sudoku puzzle is a 9 × 9 grid (i.e., a two-dimensional array) in which the digits 1 through 9 appear once and only once in each row, each column and each of nine 3 × 3 grids. In the partially completed 9 × 9 grid of Figure row 1, column 1, and the 3 × 3 grid in the upper-left corner of the board each contain the digits 1 through 9 once and only once. We use C’s two-dimensional array row and column-numbering conventions, but we’re ignoring row 0 and column 0 in conformance with Sudoku community conventions.
+
+The typical Sudoku puzzle provides many filled-in cells and many blanks, often arranged in a symmetrical pattern as is typical with crossword puzzles. The player’s task is to fill in the blanks to complete the puzzle. Some puzzles are easy to solve; some are quite difficult, requiring sophisti-cated solution strategies .
+
+Write a C program to solve a sudoku. Inputs are taken from user.
+
+
+To start quiz: Sınavı simdi uygula
+
+Submitting stages:
+Precheck: control your code with given input samples
+Kontrol et: control your code with hidden input sample
+Uygulamayı bitir
+Tümünü gönder ve bitir : to submitt the code
+
+
+For example:
+
+Test	Input	Result
+Test1
+ 0 4 5 8 0 3 7 1 0
+ 8 1 0 0 0 0 0 2 4
+ 7 0 9 0 0 0 5 0 8
+ 0 0 0 9 0 7 0 0 0
+ 0 0 0 0 6 0 0 0 0
+ 0 0 0 4 0 2 0 0 0
+ 6 0 4 0 0 0 3 0 5
+ 3 2 0 0 0 0 0 8 7
+ 0 5 7 3 0 8 2 6 0
+
+
+---------OUTPUT--------
+ 2 4 5 8 9 3 7 1 6
+ 8 1 3 5 7 6 9 2 4
+ 7 6 9 2 1 4 5 3 8
+ 5 3 6 9 8 7 1 4 2
+ 4 9 2 1 6 5 8 7 3
+ 1 7 8 4 3 2 6 5 9
+ 6 8 4 7 2 1 3 9 5
+ 3 2 1 6 5 9 4 8 7
+ 9 5 7 3 4 8 2 6 1
